@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Hub | Nural Islam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo"><div class="logo-icon">🕌</div> Nural Islam</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html" class="active">Media</a></li>
+                    <li><a href="legacy.html">Legacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <h1>Media Hub</h1>
+        <p>Watch our past events, lectures, and spiritual reminders.</p>
+    </section>
+
+    <section class="media-section">
+        <div class="container">
+            <div class="video-gallery">
+                <div class="video-card" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                    <img src="https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=600&q=80" alt="Video" class="video-thumbnail">
+                    <div class="play-btn">▶</div>
+                </div>
+                <div class="video-card" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                    <img src="https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=600&q=80" alt="Video" class="video-thumbnail">
+                    <div class="play-btn">▶</div>
+                </div>
+                <div class="video-card" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                    <img src="https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=600&q=80" alt="Video" class="video-thumbnail">
+                    <div class="play-btn">▶</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO MODAL -->
+    <div class="video-modal" id="videoModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <iframe id="videoFrame" src="" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-bottom"><p>&copy; 2024 Nural Islam. Alamgana, Oromia.</p></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
